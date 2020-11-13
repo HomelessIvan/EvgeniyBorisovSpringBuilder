@@ -1,5 +1,7 @@
 package ru.homeless;
 
+@Singleton
+@Deprecated
 public class RecommendatorImpl implements Recommendator {
     @InjectProperty
     private String alcohol;
